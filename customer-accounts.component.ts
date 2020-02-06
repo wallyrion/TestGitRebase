@@ -32,8 +32,9 @@ export class CustomerAccountsComponent {
       this.searchRequest = {...params} as AlphaSearchRequest;
 
       if (Object.keys(this.searchRequest).length) {
-        this.getCustomerAccounts(this.searchRequest);
+        
       }
+	  console.log(test);
       this.initializeDynamicColumns(params);
       this.topMenu.setHeader(undefined, undefined);
     });
