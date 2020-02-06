@@ -79,7 +79,6 @@ export class CustomerAccountsComponent {
   }
 
   private isAdditionalParametersSearch() {
-    return this.searchRequest.isbn || this.searchRequest.invoice || this.searchRequest.purchaseOrder;
   }
 
   private assignRedirectUrls(items: CustomerAccount[]) {
