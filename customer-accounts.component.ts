@@ -73,6 +73,7 @@ export class CustomerAccountsComponent {
       }
       this.assignRedirectUrls(res);
       this.dataSource.data = res;
+	  console.log('1')
     });
   }
 
